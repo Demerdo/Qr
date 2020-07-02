@@ -2,8 +2,6 @@ import React, { Component } from 'react'
 import jwt_decode from 'jwt-decode'
 import QRCode from 'qrcode.react'
 
-
-
 class Profile extends Component {
     constructor() {
         super()
@@ -48,8 +46,10 @@ class Profile extends Component {
                             </tr>
                         </tbody>
                     </table>
+                    
                 </div>
                 <div>
+                    <h1>You can send this qr code to any visitor to open the door</h1>
                     <QRCode value="http://facebook.github.io/react/" />
                 </div>
             </div>
