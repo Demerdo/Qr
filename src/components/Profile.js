@@ -50,7 +50,7 @@ class Profile extends Component {
                 </div>
                 <div>
                     <h1>You can send this qr code to any visitor to open the door</h1>
-                    <QRCode value="http://facebook.github.io/react/" />
+                    <QRCode value="https://iotdoor2.herokuapp.com/DoorOpen" />
                 </div>
             </div>
         )
